@@ -4,7 +4,7 @@ let socket: Socket;
 
 export const connectToServer = (token: string) => {
 	const manager = new Manager(
-		"http://localhost:3001/socket.io/socket.io.js",
+		"https://teslo-shop-production-ea41.up.railway.app/socket.io/socket.io.js",
 		{
 			extraHeaders: {
 				hola: "mundo",
