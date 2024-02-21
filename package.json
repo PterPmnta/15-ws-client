@@ -7,7 +7,7 @@
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
-		"start": "node dist/index.js"
+		"start": "npx http-server ./dist"
 	},
 	"devDependencies": {
 		"typescript": "^5.2.2",
